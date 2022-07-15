@@ -20,6 +20,13 @@ class HikeFragment(private val fusedLocationManager: FusedLocationManager) : Bas
 
 
 
+
+
+
+
+
+    private fun checkPermission(){ if(!fusedLocationManager.isLocationEnabledOnDevice()) fusedLocationManager.enableDeviceLocation() }
+
     companion object{
         private val PERMISSIONS = arrayOf(
             Manifest.permission.ACCESS_FINE_LOCATION,
