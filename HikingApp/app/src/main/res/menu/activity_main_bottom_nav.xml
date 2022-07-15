@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottomNavigationView_bicycle"
+        android:icon="@drawable/icon_walk"
+        />
+
+    <item
+        android:id="@+id/bottomNavigationView_map"
+        android:icon="@drawable/icon_map"
+        />
+
+    <item
+        android:id="@+id/bottomNavigationView_history"
+        android:icon="@drawable/icon_history"
+        />
+</menu>
